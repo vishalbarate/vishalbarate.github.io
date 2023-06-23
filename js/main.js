@@ -57,9 +57,10 @@ $(document).ready(function(){
       type: "post",
       url: form.attr("action"),
       data: $("myform input").serialize(),
-      success: function (data) {
-        alert("sucess");
+      success:function(data) {
+        confirm(data);
       }
     });
   });
 });
+

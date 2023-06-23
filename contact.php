@@ -7,6 +7,6 @@ if(isset($_POST['submit'])){
     $q = "insert into contact (name,email,phonenumber,subject,message) value ('$name','$email','$phonenumber','$subject','$message')";
 
     $query = mysqli_query($con,$q);
-    header('location:contact.php');
+    header('location:index.html');
 }
 ?>

@@ -642,9 +642,6 @@ h1 {
                /*   500      */
 @media only screen and (max-width: 500px) and (orientation:landscape)
 {
-  .container .google-maps{
-   overflow: hidden;
-  }
   .year-experiance-text .yeartxt{
     flex-basis: min-content;
   }
@@ -711,17 +708,6 @@ h1 {
   .services .section-title{
     padding: 0.5rem 4rem;
   }
-   /*   contact  */
-  .contact-map iframe {
-    margin-left: 0px;
-    width: 24rem !important;
-  }
-  .section-title h1 {
-    font-size: 29px !important;
-  }
-  .contact-form {
-    padding: 5px 5px;
-  }
 }
  /*   576      */
  @media only screen and (max-width: 576px) {
@@ -757,13 +743,6 @@ h1 {
   }
   .section-title {
     padding: 0.5rem 6rem;
-  }
-  /*    contact       */
-  .contact-map iframe {
-    width: 30rem;
-  }
-  .contact .section-title {
-    padding: -0.5rem 6rem;
   }
   }
 
@@ -814,27 +793,7 @@ h1 {
     display: flex!important;
     flex-direction: row-reverse;
    }
-   /*   contact  */
-   .contact {
-    margin-bottom: 60px;
-  }
-  .contact-map iframe {
-    width: 42rem !important;
-  }
-  .contact-form {
-    margin-top: 3rem;
-    padding: 5px 7px;
-  }
-  .section-title h1 {
-    font-size: 35px;
-    font-weight: 300;
-  }
-  .single_address {
-    padding-left: 0px;
-  }
-  form{
-    padding: 0px;
-  }
+   
   /*   service  */
   .services-box>.container>.row{
     display: flex;
@@ -890,13 +849,7 @@ h1 {
     display: flex!important;
     flex-direction: column-reverse;
   }
-   /*   contact      */
-   .contact-map iframe {
-    width: 47rem;
-   }
-   .contact-form {
-    padding: 8px  !important;
-  }
+  
 }
 
 
@@ -957,13 +910,6 @@ h1 {
   .call-now .phone {
     padding: 0;
   }
-    /*   contact      */
-  .contact-form {
-    padding: 0px 0px !important;
-  }
-  .contact-map iframe {
-    width: 50rem;
-  }
   
 }
         /*   992      */
@@ -993,16 +939,7 @@ h1 {
   .serviceBox{
      margin: 0 0 30px;
    }
-   /*   contact      */
-   form{
-    padding: 0px;
-   }
-   .contact-form {
-    padding: 32px 3px !important;
-   }
-   .contact-map iframe {
-    margin-left: 0px;
-  }
+
 }
 
         /*   1024      */
@@ -1033,20 +970,11 @@ h1 {
   .about-section-text h1 {
     font-size: 48px;
   }
-  .contact-form {
-    padding: 17px 50px
-  }
 }
           /*   320      */
 @media only screen and (max-width: 320px) {
   .portfolio-btn a {
     width: 130px;
-  }
-  .google-maps{
-    width: 17rem;
-  }
-  .contact-map iframe {
-    width: 28.5rem !important;
   }
   .about-section img {
     width: 18rem;
@@ -1072,15 +1000,6 @@ h1 {
   .year-experiance-text .yeartxt {
     font-size: 29px;
   }
-  .contact .section-title {
-    padding: 0.5rem 0rem;
-  }
-  .content h4{
-    font-size: 14px !important;
-  }
-  .contact-form {
-    width: 17.5rem !important;
-  }
   .header {
     width: min-content;
   }
@@ -1092,10 +1011,6 @@ h1 {
   }
   .section-title h1 {
     font-size: 28px !important;
-  }
-  .contact-section {
-    padding: 0px;
-    width: 22rem;
   }
   footer{
     width: 22rem !important;
@@ -1109,18 +1024,8 @@ h1 {
   body{
     overflow: hidden;
   }
-  .contact-map iframe {
-    width: 31.5rem !important;
-  }
   .about-section .row {
     justify-content: flex-end;
-  }
-  .contact-form{
-    width: 17rem;
-    padding: 7px 3px !important
-  }
-  form{
-    width: 17rem;
   }
   .banner h2 {
     font-size: 43px;
@@ -1129,4 +1034,31 @@ h1 {
     font-size: 34px;
     font-weight: 300;
   }
+}
+
+        /*   380      */
+@media only screen and (max-width: 380px) {
+  /*  about  */
+  .about-section-text h1 {
+    font-size: 38px !important;
+  }
+  .about-section-text p {
+    width: 21rem;
+  }
+  .section-title {
+    padding: 0.5rem 2rem;
+  }
+  .services .section-title {
+    padding: 0.5rem 0rem;
+  }
+  section .big-title {
+    font-size: 64px !important;
+  }
+  .banner h3 {
+    font-size: 24px;
+  }
+  .banner h2 {
+    font-size: 35px;
+  }
+
 }
